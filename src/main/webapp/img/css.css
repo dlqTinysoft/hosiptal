@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+body  {
+	font: 100% 宋体, 新宋体;
+	background: #EBEBEB;
+	margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	text-align: center; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+	color: #000000;
+}
+
+form {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px
+}
+
+td {
+	FONT-SIZE: 12px; COLOR: #333; WORD-BREAK: break-all; FONT-FAMILY: Arial, Helvetica, sans-serif,Verdana
+}
+
+.tdmenubg {
+	background: url();
+	height:100px;
+	width: 800px;
+}
+
+.tdmenu {
+	background: url(menu2.gif);
+	height:30px;
+}
+
+#menu {
+	padding-left:25px;
+}
+
+#menu a {
+	padding-right: 5px; padding-left: 5px; float: left; padding-bottom: 0px; margin: 0px; color: #ffffff; line-height: 28px; padding-top: 0px; text-decoration: none
+}
+
+#menu a:hover {
+	background: #006699; color: #fff; line-height: 28px; border-bottom: #7c9a57; height: 25px; text-decoration: none
+}
+
+a {
+	color:#151515;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#F55C3D;
+	text-decoration: underline;
+}
+
+.adminmenu {
+	background:#ACD9FD;
+}
+
+.border_left {
+	border-left:#CCC 1px solid;
+}
+
+.border_right {
+	border-right:#CCC 1px solid;
+}
+.border_top {
+	border-top:#CCC 1px solid;
+}
+
+.border_bottom {
+	border-bottom:#CCC 1px solid;
+}
+
+.border {
+	border:#999 1px solid;
+}
+
+input {	
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em;
+	border:#000080 1px solid;
+	height:20px;
+}
+
+.input {	
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em;
+	border: #808000 1px double;
+	height:20px;
+	width:60px;
+	padding-top:3px;
+}
+
+.input_login {	
+	font-family: 宋体;	
+	border: #333 1px double;
+	height:20px;
+	width:35px;
+	padding-top:2px;
+}
+
+.tabletop {
+	background: #AEC9DD;
+}
+
+.tablemenu {
+	background:#d9e8fd;
+}
+
+.tabletd1 {
+	background:#f0f3fa;
+}
+
+.tabletd2 {
+	background:#d9e8fd;
+}
